@@ -6,9 +6,16 @@
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+<ion-content>
+  <ion-list>
+    <ion-item ion-item *ngFor="let item of picArray" (click)="itemSelected(item)">
+      <ion-thumbnail item-start>
+        <img src="{{item.thumbnail}}" item-start="" width="60" height="60">
+      </ion-thumbnail>
+      <h2>{{ item.title }}</h2>
+      <p>{{ item.details}}</p>
+      <button ion-button clear item-end>View</button>
+    </ion-item>
+  </ion-list>
 </ion-content>
+
