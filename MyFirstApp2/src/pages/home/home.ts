@@ -26,7 +26,6 @@ export class HomePage {
         this.picArray.forEach(i => {
           let split = i.filename;
           let rest = split.substring(0, split.lastIndexOf('.') + 0);
-          //let last = split.substring(split.lastIndexOf('.') + 0, split.length);
           i.filename = rest + '-tn160.png';
         });
         console.log(this.picArray);

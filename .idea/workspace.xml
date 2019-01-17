@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b8813c78-67a8-47c4-9009-4c033c4033dd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/MyFirstApp2/src/interfaces/pic.ts" beforeDir="false" afterPath="$PROJECT_DIR$/MyFirstApp2/src/interfaces/pic.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyFirstApp2/src/pages/home/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/MyFirstApp2/src/pages/home/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyFirstApp2/src/pages/home/home.ts" beforeDir="false" afterPath="$PROJECT_DIR$/MyFirstApp2/src/pages/home/home.ts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -131,8 +129,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MyFirstApp2/src/pages/home/home.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="29" column="43" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
+            <state relative-caret-position="442">
+              <caret line="32" column="16" lean-forward="true" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
               <folding>
                 <element signature="e#0#52#0" expanded="true" />
               </folding>
@@ -336,12 +334,12 @@
       <updated>1547456038294</updated>
       <workItem from="1547456039947" duration="1545000" />
       <workItem from="1547460860755" duration="9805000" />
-      <workItem from="1547723983896" duration="7390000" />
+      <workItem from="1547723983896" duration="7526000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18740000" />
+    <option name="totallyTimeSpent" value="18876000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1059" height="1047" extended-state="0" />
@@ -474,8 +472,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MyFirstApp2/src/pages/home/home.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="29" column="43" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
+        <state relative-caret-position="442">
+          <caret line="32" column="16" lean-forward="true" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
           <folding>
             <element signature="e#0#52#0" expanded="true" />
           </folding>
