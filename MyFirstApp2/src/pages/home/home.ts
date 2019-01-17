@@ -9,7 +9,7 @@ import { HttpClient } from '@angular/common/http';
 })
 export class HomePage {
   picArray: Pic[] = [];
-  mediaPath = 'assets/test.json';
+  mediaPath = 'http://media.mw.metropolia.fi/wbma/media';
 
   constructor(public navCtrl: NavController, private http: HttpClient) {
   }
@@ -23,6 +23,12 @@ export class HomePage {
     this.http.get<Pic[]>(this.mediaPath).subscribe(
       (res: Pic[]) => {
         this.picArray = res;
+        this.picArray.forEach(i => {
+          let split = i.filename;
+          let rest = split.substring(0, split.lastIndexOf('.') + 0);
+          //let last = split.substring(split.lastIndexOf('.') + 0, split.length);
+          i.filename = rest + '-tn160.png';
+        });
         console.log(this.picArray);
       },
       (err) => {
