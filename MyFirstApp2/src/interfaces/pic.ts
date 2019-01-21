@@ -13,6 +13,6 @@ export interface Pic {
 
 export interface Thumbnails {
   160: string;
-  320: string;
-  640: string;
+  320?: string;
+  640?: string;
 }
