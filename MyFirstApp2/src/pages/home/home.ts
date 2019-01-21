@@ -2,6 +2,7 @@ import { Component, Provider } from '@angular/core';
 import { NavController } from 'ionic-angular';
 import { Pic } from '../../interfaces/pic';
 import { HttpClient } from '@angular/common/http';
+import { MediaProvider } from "../../providers/media/media";
 
 @Component({
   selector: 'page-home',
@@ -9,16 +10,16 @@ import { HttpClient } from '@angular/common/http';
 })
 export class HomePage {
   picArray: Pic[] = [];
-  mediaPath = 'http://media.mw.metropolia.fi/wbma/media';
+  //mediaPath = 'http://media.mw.metropolia.fi/wbma/media';
 
-  constructor(public navCtrl: NavController, private http: HttpClient) {
+  constructor(public navCtrl: NavController, private http: HttpClient, private mediaProvider: MediaProvider) {
   }
 
-  ngOnInit() {
-    this.getImages();
+  ionViewDidLoad() {
+    this.getAllFiles();
     console.log('Getting images');
   }
-
+  /*
   getImages() {
     this.http.get<Pic[]>(this.mediaPath).subscribe(
       (res: Pic[]) => {
@@ -34,6 +35,18 @@ export class HomePage {
         console.log(err);
       }
     );
+  }
+  */
+  getAllFiles() {
+    this.mediaProvider.getAllMedia().subscribe((data: Pic[]) => {
+      console.log(data);
+      this.picArray = data;
+      this.picArray.map((i => {
+        const split = i.filename;
+        const rest = split.substring(0, split.lastIndexOf('.'));
+        i.filename = rest + '-tn160.png';
+      }));
+    });
   }
 }
 
