@@ -21,7 +21,7 @@ export class MediaProvider {
     return this.http.get<Pic[]>(this.mediaPath);
   }
   getSingleMedia(id: any) {
-   return this.http.get<Pic[]>(this.mediaPath + '/' + id);
+   return this.http.get<Pic>(this.mediaPath + '/' + id);
   }
 
 }
