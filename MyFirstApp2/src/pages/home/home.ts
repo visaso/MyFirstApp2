@@ -25,7 +25,7 @@ export class HomePage {
       data.forEach((i => {
         this.mediaProvider.getSingleMedia(i.file_id).subscribe((item: Pic) => {
           this.picArray.push(item);
-          console.log(item);
+          //console.log(item);
         });
       }));
     });
