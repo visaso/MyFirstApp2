@@ -16,3 +16,23 @@ export interface Thumbnails {
   w320: string;
   w640: string;
 }
+
+export interface User {
+  user_id?: number;
+  username: string;
+  password?: string;
+  email?: string;
+  fullname?: string;
+  time_created?: string;
+}
+
+export interface LoginResponse {
+  message: string;
+  token: string;
+  user: User;
+}
+
+export interface CheckUsername {
+  username: string;
+  available: boolean;
+}

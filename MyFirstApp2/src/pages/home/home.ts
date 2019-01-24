@@ -16,7 +16,23 @@ export class HomePage {
 
   ionViewDidLoad() {
     this.getAllFiles();
-    console.log('Getting images');
+    console.log('Getting imgs');
+    /*
+    if (localStorage.getItem('token') != null && !this.mediaProvider.loggedIn) {
+      console.log('Automatic login');
+      this.mediaProvider.token = localStorage.getItem('token');
+      this.mediaProvider.login(this.mediaProvider.token);
+    }
+    */
+    /*
+    this.mediaProvider.initialLoginCheck().subscribe(
+      res => {
+        this.mediaProvider.loggedIn = true;
+      },
+      error => {
+        this.mediaProvider.loggedIn = false;
+      });
+      */
   }
 
   getAllFiles() {
@@ -25,7 +41,7 @@ export class HomePage {
       data.forEach((i => {
         this.mediaProvider.getSingleMedia(i.file_id).subscribe((item: Pic) => {
           this.picArray.push(item);
-          //console.log(item);
+          // console.log(item);
         });
       }));
     });
