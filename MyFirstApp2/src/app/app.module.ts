@@ -11,7 +11,9 @@ import { HttpClientModule } from '@angular/common/http';
 import { MediaProvider } from '../providers/media/media';
 import { MenuPage } from '../pages/menu/menu';
 import { LoginRegisterPage } from '../pages/login-register/login-register';
-import { LogoutPage } from '../pages/logout/logout';
+import { ProfilePage } from '../pages/profile/profile';
+import { ThumbnailPipe } from '../pipes/thumbnail/thumbnail';
+import { UserimagePipe } from "../pipes/userimage/userimage";
 
 @NgModule({
   declarations: [
@@ -19,7 +21,9 @@ import { LogoutPage } from '../pages/logout/logout';
     HomePage,
     MenuPage,
     LoginRegisterPage,
-    LogoutPage
+    ProfilePage,
+    ThumbnailPipe,
+    UserimagePipe
   ],
   imports: [
     BrowserModule,
@@ -32,7 +36,7 @@ import { LogoutPage } from '../pages/logout/logout';
     HomePage,
     MenuPage,
     LoginRegisterPage,
-    LogoutPage
+    ProfilePage
   ],
   providers: [
     StatusBar,

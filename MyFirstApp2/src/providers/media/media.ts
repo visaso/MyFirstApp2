@@ -12,7 +12,6 @@ import { CheckUsername, LoginResponse, Pic, User } from '../../interfaces/pic';
 export class MediaProvider {
   mediaPath = 'http://media.mw.metropolia.fi/wbma';
   loggedIn = false;
-  token = null;
   constructor(public http: HttpClient) {
     console.log('Hello MediaProvider Provider');
   }
@@ -29,7 +28,7 @@ export class MediaProvider {
         'Content-type': 'application/json'
       }),
     };
-    return this.http.post<LoginResponse>(this.mediaPath + '/users/', user, registerInfo );
+    return this.http.post<LoginResponse>(this.mediaPath + '/users/', user, registerInfo);
   }
   login(user: User) {
     const httpOptions = {
@@ -40,18 +39,31 @@ export class MediaProvider {
     }; // add headers
     return this.http.post<LoginResponse>(this.mediaPath + '/login', user, httpOptions);
   }
-  /*
+
+  getUserInfo() {
+    const httpOptions = {
+      headers: new HttpHeaders({
+        'x-access-token': localStorage.getItem('token')
+      })
+    };
+    return this.http.get<User>(this.mediaPath + '/users/user/', httpOptions);
+  }
+
+  getFilesByTag() {
+    return this.http.get<Pic[]>(this.mediaPath + '/tags/profile');
+  }
+
   initialLoginCheck() {
     const httpOptions = {
       headers: new HttpHeaders({
         'x-access-token': localStorage.getItem('token')
       })
     };
-    return this.http.get<LoginResponse>(this.mediaPath + '/users/user', httpOptions);
+    return this.http.get<LoginResponse>(this.mediaPath + '/users/user/', httpOptions);
   }
-  */
+
   /*
-  logout() {
+  profile() {
     localStorage.clear();
   }
   */

@@ -36,10 +36,10 @@ export class LoginRegisterPage {
         // this.mediaProvider.token = response.token;
         localStorage.setItem('token', response.token);
         this.mediaProvider.loggedIn = true;
+        localStorage.setItem('userID', response.user.user_id.toString());
         // Save to local storage
         // Move to Homepage with navCtrl
         this.navCtrl.push(HomePage);
-
       },
       error => {
         console.log(error);

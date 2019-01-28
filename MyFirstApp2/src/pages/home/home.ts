@@ -3,13 +3,14 @@ import { NavController } from 'ionic-angular';
 import { Pic } from '../../interfaces/pic';
 import { HttpClient } from '@angular/common/http';
 import { MediaProvider } from '../../providers/media/media';
+import { Observable } from "rxjs";
 
 @Component({
   selector: 'page-home',
   templateUrl: 'home.html'
 })
 export class HomePage {
-  picArray: Pic[] = [];
+  picArray: Observable<Pic[]>;
 
   constructor(public navCtrl: NavController, private http: HttpClient, private mediaProvider: MediaProvider) {
   }
@@ -24,27 +25,20 @@ export class HomePage {
       this.mediaProvider.login(this.mediaProvider.token);
     }
     */
-    /*
-    this.mediaProvider.initialLoginCheck().subscribe(
-      res => {
-        this.mediaProvider.loggedIn = true;
-      },
-      error => {
-        this.mediaProvider.loggedIn = false;
-      });
-      */
+    if (!this.mediaProvider.loggedIn && localStorage.getItem("token") != null) {
+
+      this.mediaProvider.initialLoginCheck().subscribe(
+        res => {
+          this.mediaProvider.loggedIn = true;
+        },
+        error => {
+          this.mediaProvider.loggedIn = false;
+        });
+    }
   }
 
   getAllFiles() {
-    this.mediaProvider.getAllMedia().subscribe((data: Pic[]) => {
-      console.log(data);
-      data.forEach((i => {
-        this.mediaProvider.getSingleMedia(i.file_id).subscribe((item: Pic) => {
-          this.picArray.push(item);
-          // console.log(item);
-        });
-      }));
-    });
+    this.picArray = this.mediaProvider.getAllMedia();
   }
 }
 
