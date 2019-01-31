@@ -15,33 +15,52 @@
 
 <ion-content padding>
 
-  <form *ngIf="!registering" (ngSubmit)="login()">
+  <form #f="ngForm" *ngIf="!registering" (ngSubmit)="login()">
     <ion-item>
       <ion-label>Username</ion-label>
-      <ion-input type="text" [(ngModel)]="user.username" name="username"></ion-input>
+      <ion-input type="text" [(ngModel)]="user.username" name="username" required minlength="3" ></ion-input>
     </ion-item>
     <ion-item>
       <ion-label>Password</ion-label>
-      <ion-input type="password" [(ngModel)]="user.password" name="password"></ion-input>
+      <ion-input type="password" [(ngModel)]="user.password" name="password" required minlength="5"></ion-input>
     </ion-item>
-    <button ion-button type="submit" block>Login</button>
-    <a link href="#" type="submit" (click)="registering=true" name="createUser" block>Have not created user yet?</a>
+    <button ion-button type="submit" block [disabled]="f.invalid">Login</button>
+    <a link href="#" type="submit" (click)="registering=true" name="createUser" block>Register here</a>
   </form>
-  <form *ngIf="registering" (ngSubmit)="register()">
+  <form #r="ngForm" *ngIf="registering" (ngSubmit)="register()">
     <ion-item>
       <ion-label>Username</ion-label>
-      <ion-input type="text" [(ngModel)]="user.username" name="username"></ion-input>
+
+      <ion-input type="text" [(ngModel)]="user.username" name="username"
+                 (ionBlur)="checkUsernameAvailability(user.username)" required minlength="3"></ion-input>
+    </ion-item>
+    <ion-item *ngIf="!usernameAvailable">
+      <p style="color: red">Username is not available</p>
+    </ion-item>
+    <ion-item>
+      <ion-label>Full name (optional)</ion-label>
+      <ion-input type="text" [(ngModel)]="user.full_name" name="fullname" pattern="^[A-Za-z\s]{1,}[ ]{0,1}[A-Za-z\s]{0,}$"></ion-input>
     </ion-item>
     <ion-item>
       <ion-label>Password</ion-label>
-      <ion-input type="password" [(ngModel)]="user.password" name="password"></ion-input>
+      <ion-input type="password" [(ngModel)]="user.password" name="password" required minlength="5"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label>Confirm password</ion-label>
+      <ion-input type="password" [(ngModel)]="confirmPassword" name="confirmPassword"
+                 (ionBlur)="checkMatchingPasswords(user.password, confirmPassword)" required minlength="5"></ion-input>
+    </ion-item>
+    <ion-item *ngIf="!matchingPasswords">
+      <p style="color: red">Passwords don't match</p>
     </ion-item>
     <ion-item>
       <ion-label>email</ion-label>
-      <ion-input type="email" [(ngModel)]="user.email" name="email"></ion-input>
+      <ion-input type="email" [(ngModel)]="user.email" name="email" required pattern="[^ @]*@[^ @]*"></ion-input>
     </ion-item>
-    <button ion-button type="submit" block>create user</button>
-    <a link href="#" type="submit" (click)="registering=false" name="loginUser" block>Have user?</a>
+    <button ion-button type="submit" block [disabled]="r.invalid || !matchingPasswords || !usernameAvailable">create
+      user
+    </button>
+    <a link href="#" type="submit" (click)="registering=false" name="loginUser" block>Already have an account?</a>
   </form>
 
 </ion-content>

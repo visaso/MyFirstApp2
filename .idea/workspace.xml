@@ -3,6 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="b8813c78-67a8-47c4-9009-4c033c4033dd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyFirstApp2/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/MyFirstApp2/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyFirstApp2/src/interfaces/pic.ts" beforeDir="false" afterPath="$PROJECT_DIR$/MyFirstApp2/src/interfaces/pic.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyFirstApp2/src/pages/login-register/login-register.html" beforeDir="false" afterPath="$PROJECT_DIR$/MyFirstApp2/src/pages/login-register/login-register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyFirstApp2/src/pages/login-register/login-register.ts" beforeDir="false" afterPath="$PROJECT_DIR$/MyFirstApp2/src/pages/login-register/login-register.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyFirstApp2/src/pages/menu/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/MyFirstApp2/src/pages/menu/menu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyFirstApp2/src/pages/profile/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/MyFirstApp2/src/pages/profile/profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyFirstApp2/src/pages/profile/profile.ts" beforeDir="false" afterPath="$PROJECT_DIR$/MyFirstApp2/src/pages/profile/profile.ts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -33,38 +40,38 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="1307" />
+          <entry key="html" value="2029" />
           <entry key="json" value="7" />
-          <entry key="ts" value="7753" />
+          <entry key="ts" value="9044" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="1306" />
+          <entry key="HTML" value="2028" />
           <entry key="JSON" value="7" />
           <entry key="JavaScript" value="1" />
-          <entry key="TypeScript" value="7753" />
+          <entry key="TypeScript" value="9044" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="17" />
+          <entry key="html" value="20" />
           <entry key="js" value="1" />
-          <entry key="json" value="4" />
+          <entry key="json" value="6" />
           <entry key="png" value="1" />
           <entry key="scss" value="11" />
-          <entry key="ts" value="60" />
+          <entry key="ts" value="64" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="17" />
+          <entry key="HTML" value="20" />
           <entry key="Image" value="1" />
-          <entry key="JSON" value="4" />
+          <entry key="JSON" value="6" />
           <entry key="JavaScript" value="1" />
           <entry key="SCSS" value="11" />
-          <entry key="TypeScript" value="60" />
+          <entry key="TypeScript" value="64" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
@@ -78,46 +85,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MyFirstApp2/src/pages/home/home.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="31" column="45" selection-start-line="31" selection-start-column="45" selection-end-line="31" selection-end-column="45" />
-              <folding>
-                <element signature="e#0#52#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MyFirstApp2/src/pages/login-register/login-register.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="38" column="71" selection-start-line="38" selection-start-column="71" selection-end-line="38" selection-end-column="71" />
-              <folding>
-                <element signature="e#0#42#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MyFirstApp2/src/pages/profile/profile.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" selection-start-line="15" selection-end-line="26" selection-end-column="11" />
+            <state relative-caret-position="289">
+              <caret line="17" column="12" lean-forward="true" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MyFirstApp2/src/pipes/userimage/userimage.ts">
+        <entry file="file://$PROJECT_DIR$/MyFirstApp2/src/app/app.module.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
-              <folding>
-                <element signature="e#0#52#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="153">
+              <caret line="9" column="57" lean-forward="true" selection-start-line="9" selection-start-column="57" selection-end-line="9" selection-end-column="57" />
             </state>
           </provider>
         </entry>
@@ -125,7 +105,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MyFirstApp2/src/pipes/thumbnail/thumbnail.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
+            <state relative-caret-position="-91">
               <caret line="18" column="3" selection-start-line="16" selection-start-column="2" selection-end-line="18" selection-end-column="3" />
               <folding>
                 <element signature="e#0#52#0" expanded="true" />
@@ -146,8 +126,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MyFirstApp2/src/pages/profile/profile.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="41" column="4" lean-forward="true" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="4" />
+            <state relative-caret-position="240">
+              <caret line="41" column="7" lean-forward="true" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="7" />
               <folding>
                 <element signature="e#0#42#0" expanded="true" />
               </folding>
@@ -156,21 +136,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MyFirstApp2/src/interfaces/pic.ts">
+        <entry file="file://$PROJECT_DIR$/MyFirstApp2/src/pages/login-register/login-register.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MyFirstApp2/src/providers/media/media.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="14" column="37" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="37" />
+            <state relative-caret-position="187">
+              <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
               <folding>
-                <element signature="e#0#63#0" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#ion-item#1;n#form#1;n#ion-content#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#ion-item#4;n#form#1;n#ion-content#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -181,6 +153,36 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
               <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MyFirstApp2/src/pages/menu/menu.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="96" selection-start-line="9" selection-start-column="96" selection-end-line="9" selection-end-column="96" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MyFirstApp2/src/interfaces/pic.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="325">
+              <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MyFirstApp2/src/pages/login-register/login-register.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="733">
+              <caret line="53" column="25" lean-forward="true" selection-start-line="53" selection-start-column="25" selection-end-line="53" selection-end-column="25" />
+              <folding>
+                <element signature="e#0#42#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -211,21 +213,21 @@
         <option value="$PROJECT_DIR$/MyFirstApp2/src/assets/test.json" />
         <option value="$PROJECT_DIR$/MyFirstApp2/src/app/app.component.ts" />
         <option value="$PROJECT_DIR$/MyFirstApp2/src/pages/menu/menu.ts" />
-        <option value="$PROJECT_DIR$/MyFirstApp2/src/interfaces/pic.ts" />
-        <option value="$PROJECT_DIR$/MyFirstApp2/src/pages/menu/menu.html" />
-        <option value="$PROJECT_DIR$/MyFirstApp2/src/pages/login-register/login-register.html" />
         <option value="$PROJECT_DIR$/MyFirstApp2/src/pages/logout/logout.html" />
         <option value="$PROJECT_DIR$/MyFirstApp2/src/pages/logout/logout.ts" />
         <option value="$PROJECT_DIR$/MyFirstApp2/src/pipes/thumbnail/thumbnail.ts" />
         <option value="$PROJECT_DIR$/MyFirstApp2/src/pages/home/home.html" />
         <option value="$PROJECT_DIR$/MyFirstApp2/src/pipes/pipes.module.ts" />
-        <option value="$PROJECT_DIR$/MyFirstApp2/src/app/app.module.ts" />
         <option value="$PROJECT_DIR$/MyFirstApp2/src/pages/home/home.ts" />
         <option value="$PROJECT_DIR$/MyFirstApp2/src/pipes/userimage/userimage.ts" />
         <option value="$PROJECT_DIR$/MyFirstApp2/src/providers/media/media.ts" />
-        <option value="$PROJECT_DIR$/MyFirstApp2/src/pages/login-register/login-register.ts" />
-        <option value="$PROJECT_DIR$/MyFirstApp2/src/pages/profile/profile.ts" />
+        <option value="$PROJECT_DIR$/MyFirstApp2/src/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/MyFirstApp2/src/pages/menu/menu.html" />
+        <option value="$PROJECT_DIR$/MyFirstApp2/src/interfaces/pic.ts" />
         <option value="$PROJECT_DIR$/MyFirstApp2/src/pages/profile/profile.html" />
+        <option value="$PROJECT_DIR$/MyFirstApp2/src/pages/profile/profile.ts" />
+        <option value="$PROJECT_DIR$/MyFirstApp2/src/pages/login-register/login-register.ts" />
+        <option value="$PROJECT_DIR$/MyFirstApp2/src/pages/login-register/login-register.html" />
       </list>
     </option>
   </component>
@@ -259,9 +261,9 @@
       <path value="$PROJECT_DIR$/MyFirstApp2/plugins/cordova-plugin-whitelist/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
-    <option name="width" value="1149" />
+    <option name="width" value="1044" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectView">
@@ -426,12 +428,12 @@
       <workItem from="1548055519824" duration="3457000" />
       <workItem from="1548313434448" duration="1123000" />
       <workItem from="1548660639360" duration="25960000" />
-      <workItem from="1548919244590" duration="242000" />
+      <workItem from="1548919244590" duration="16244000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71606000" />
+    <option name="totallyTimeSpent" value="87608000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -443,10 +445,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1149" height="1047" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22052205" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12908325" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -459,7 +461,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32968238" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="TypeScript" order="9" weight="0.32968238" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3023001" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.2635575" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -521,24 +523,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MyFirstApp2/tslint.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MyFirstApp2/src/app/app.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MyFirstApp2/src/pages/login-register/login-register.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="46" column="14" selection-start-line="46" selection-start-column="14" selection-end-line="46" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -548,31 +536,10 @@
     <entry file="file://$PROJECT_DIR$/MyFirstApp2/src/pages/login-register/login-register.scss">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/MyFirstApp2/src/pages/menu/menu.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="95" selection-start-line="9" selection-start-column="95" selection-end-line="9" selection-end-column="95" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MyFirstApp2/src/pipes/profile/profile.ts" />
     <entry file="file://$PROJECT_DIR$/MyFirstApp2/src/pipes/user-image/user-image.ts" />
     <entry file="file://$PROJECT_DIR$/MyFirstApp2/src/pages/profile/profile.scss">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MyFirstApp2/src/app/app.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="62">
-          <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MyFirstApp2/src/app/app.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="27" lean-forward="true" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MyFirstApp2/src/app/main.ts">
       <provider selected="true" editor-type-id="text-editor" />
@@ -594,26 +561,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MyFirstApp2/src/pages/login-register/login-register.ts">
+    <entry file="file://$PROJECT_DIR$/MyFirstApp2/src/providers/media/media.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="38" column="71" selection-start-line="38" selection-start-column="71" selection-end-line="38" selection-end-column="71" />
+        <state relative-caret-position="204">
+          <caret line="14" column="37" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="37" />
           <folding>
-            <element signature="e#0#42#0" expanded="true" />
+            <element signature="e#0#63#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MyFirstApp2/src/pages/profile/profile.html">
+    <entry file="file://$PROJECT_DIR$/MyFirstApp2/tslint.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" selection-start-line="15" selection-end-line="26" selection-end-column="11" />
+        <state relative-caret-position="306">
+          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MyFirstApp2/src/pipes/userimage/userimage.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
+        <state relative-caret-position="408">
           <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
           <folding>
             <element signature="e#0#52#0" expanded="true" />
@@ -621,9 +588,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/MyFirstApp2/src/app/app.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="27" lean-forward="true" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyFirstApp2/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="57" lean-forward="true" selection-start-line="9" selection-start-column="57" selection-end-line="9" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/MyFirstApp2/src/pipes/thumbnail/thumbnail.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
+        <state relative-caret-position="-91">
           <caret line="18" column="3" selection-start-line="16" selection-start-column="2" selection-end-line="18" selection-end-column="3" />
           <folding>
             <element signature="e#0#52#0" expanded="true" />
@@ -638,20 +622,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MyFirstApp2/src/interfaces/pic.ts">
+    <entry file="file://$PROJECT_DIR$/MyFirstApp2/src/pages/profile/profile.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
-          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+          <caret line="17" column="12" lean-forward="true" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MyFirstApp2/src/providers/media/media.ts">
+    <entry file="file://$PROJECT_DIR$/MyFirstApp2/src/pages/menu/menu.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="14" column="37" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#63#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="153">
+          <caret line="9" column="96" selection-start-line="9" selection-start-column="96" selection-end-line="9" selection-end-column="96" />
         </state>
       </provider>
     </entry>
@@ -662,10 +643,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/MyFirstApp2/src/interfaces/pic.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyFirstApp2/src/pages/login-register/login-register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#ion-item#1;n#form#1;n#ion-content#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#ion-item#4;n#form#1;n#ion-content#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyFirstApp2/src/pages/login-register/login-register.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="733">
+          <caret line="53" column="25" lean-forward="true" selection-start-line="53" selection-start-column="25" selection-end-line="53" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/MyFirstApp2/src/pages/profile/profile.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="41" column="4" lean-forward="true" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="4" />
+        <state relative-caret-position="240">
+          <caret line="41" column="7" lean-forward="true" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="7" />
           <folding>
             <element signature="e#0#42#0" expanded="true" />
           </folding>

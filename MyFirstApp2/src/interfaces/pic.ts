@@ -22,7 +22,7 @@ export interface User {
   username: string;
   password?: string;
   email?: string;
-  fullname?: string;
+  full_name?: string;
   time_created?: string;
 }
 

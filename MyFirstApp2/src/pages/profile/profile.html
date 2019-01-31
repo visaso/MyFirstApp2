@@ -16,7 +16,7 @@
 <ion-content padding>
 
   <ion-card>
-    <img [src]="'http://media.mw.metropolia.fi/wbma/uploads/' + avatarUrl">
+    <img *ngIf="avatarUrl !== ''" [src]="'http://media.mw.metropolia.fi/wbma/uploads/' + avatarUrl">
     <ion-item ion-item *ngIf="(u | async) as item">
     <h2>OK</h2>
     <h2>{{ item.email }}</h2>
