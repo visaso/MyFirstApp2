@@ -3,15 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b8813c78-67a8-47c4-9009-4c033c4033dd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyFirstApp2/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/MyFirstApp2/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyFirstApp2/src/pages/home/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/MyFirstApp2/src/pages/home/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyFirstApp2/src/pages/home/home.ts" beforeDir="false" afterPath="$PROJECT_DIR$/MyFirstApp2/src/pages/home/home.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyFirstApp2/src/pages/login-register/login-register.ts" beforeDir="false" afterPath="$PROJECT_DIR$/MyFirstApp2/src/pages/login-register/login-register.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyFirstApp2/src/pages/logout/logout.html" beforeDir="false" afterPath="$PROJECT_DIR$/MyFirstApp2/src/pages/profile/profile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyFirstApp2/src/pages/logout/logout.scss" beforeDir="false" afterPath="$PROJECT_DIR$/MyFirstApp2/src/pages/profile/profile.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyFirstApp2/src/pages/logout/logout.ts" beforeDir="false" afterPath="$PROJECT_DIR$/MyFirstApp2/src/pages/profile/profile.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyFirstApp2/src/pages/menu/menu.ts" beforeDir="false" afterPath="$PROJECT_DIR$/MyFirstApp2/src/pages/menu/menu.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyFirstApp2/src/providers/media/media.ts" beforeDir="false" afterPath="$PROJECT_DIR$/MyFirstApp2/src/providers/media/media.ts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,18 +17,18 @@
     <session id="-554791060">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.11" value="2" />
-          <entry key="project.open.time.13" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.open.time.13" value="2" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
         <counts>
-          <entry key="TsLintLanguageService" value="6" />
-          <entry key="TypeScriptServerServiceImpl" value="6" />
+          <entry key="TsLintLanguageService" value="7" />
+          <entry key="TypeScriptServerServiceImpl" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -89,7 +80,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MyFirstApp2/src/pages/home/home.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
+            <state relative-caret-position="442">
               <caret line="31" column="45" selection-start-line="31" selection-start-column="45" selection-end-line="31" selection-end-column="45" />
               <folding>
                 <element signature="e#0#52#0" expanded="true" />
@@ -101,7 +92,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MyFirstApp2/src/pages/login-register/login-register.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
+            <state relative-caret-position="578">
               <caret line="38" column="71" selection-start-line="38" selection-start-column="71" selection-end-line="38" selection-end-column="71" />
               <folding>
                 <element signature="e#0#42#0" expanded="true" />
@@ -113,8 +104,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MyFirstApp2/src/pages/profile/profile.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="419">
-              <caret line="25" column="46" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
+            <state relative-caret-position="255">
+              <caret line="15" selection-start-line="15" selection-end-line="26" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -122,7 +113,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MyFirstApp2/src/pipes/userimage/userimage.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
+            <state relative-caret-position="374">
               <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
               <folding>
                 <element signature="e#0#52#0" expanded="true" />
@@ -134,8 +125,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MyFirstApp2/src/pipes/thumbnail/thumbnail.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="18" column="3" lean-forward="true" selection-start-line="16" selection-start-column="2" selection-end-line="18" selection-end-column="3" />
+            <state relative-caret-position="272">
+              <caret line="18" column="3" selection-start-line="16" selection-start-column="2" selection-end-line="18" selection-end-column="3" />
               <folding>
                 <element signature="e#0#52#0" expanded="true" />
               </folding>
@@ -156,7 +147,7 @@
         <entry file="file://$PROJECT_DIR$/MyFirstApp2/src/pages/profile/profile.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="442">
-              <caret line="38" column="22" lean-forward="true" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
+              <caret line="41" column="4" lean-forward="true" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="4" />
               <folding>
                 <element signature="e#0#42#0" expanded="true" />
               </folding>
@@ -176,8 +167,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MyFirstApp2/src/providers/media/media.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="14" column="37" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="37" />
+            <state relative-caret-position="204">
+              <caret line="14" column="37" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="37" />
               <folding>
                 <element signature="e#0#63#0" expanded="true" />
               </folding>
@@ -188,7 +179,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MyFirstApp2/src/pages/menu/menu.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
+            <state relative-caret-position="68">
               <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
             </state>
           </provider>
@@ -269,8 +260,8 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="785" />
-    <option name="width" value="1142" />
+    <option name="x" value="-7" />
+    <option name="width" value="1149" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectView">
@@ -278,7 +269,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -392,6 +382,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -434,12 +425,13 @@
       <workItem from="1547723983896" duration="7719000" />
       <workItem from="1548055519824" duration="3457000" />
       <workItem from="1548313434448" duration="1123000" />
-      <workItem from="1548660639360" duration="24734000" />
+      <workItem from="1548660639360" duration="25960000" />
+      <workItem from="1548919244590" duration="242000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70138000" />
+    <option name="totallyTimeSpent" value="71606000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -451,10 +443,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="785" y="0" width="1142" height="1047" extended-state="0" />
+    <frame x="-7" y="0" width="1149" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2219203" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22052205" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -467,7 +459,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32968238" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="TypeScript" order="9" weight="0.32968238" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3023001" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3023001" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -563,12 +555,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MyFirstApp2/src/pipes/profile/profile.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MyFirstApp2/src/pipes/user-image/user-image.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/MyFirstApp2/src/pipes/profile/profile.ts" />
+    <entry file="file://$PROJECT_DIR$/MyFirstApp2/src/pipes/user-image/user-image.ts" />
     <entry file="file://$PROJECT_DIR$/MyFirstApp2/src/pages/profile/profile.scss">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -576,9 +564,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="62">
           <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#58#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -586,54 +571,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="27" lean-forward="true" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MyFirstApp2/src/app/main.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#75#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/MyFirstApp2/src/pipes/pipes.module.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MyFirstApp2/src/pipes/thumbnail/thumbnail.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="18" column="3" lean-forward="true" selection-start-line="16" selection-start-column="2" selection-end-line="18" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#52#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MyFirstApp2/src/pipes/userimage/userimage.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
-          <folding>
-            <element signature="e#0#52#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MyFirstApp2/src/pages/home/home.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
+        <state relative-caret-position="442">
           <caret line="31" column="45" selection-start-line="31" selection-start-column="45" selection-end-line="31" selection-end-column="45" />
           <folding>
             <element signature="e#0#52#0" expanded="true" />
@@ -641,27 +594,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MyFirstApp2/src/pages/menu/menu.ts">
+    <entry file="file://$PROJECT_DIR$/MyFirstApp2/src/pages/login-register/login-register.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MyFirstApp2/src/providers/media/media.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="14" column="37" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="37" />
+        <state relative-caret-position="578">
+          <caret line="38" column="71" selection-start-line="38" selection-start-column="71" selection-end-line="38" selection-end-column="71" />
           <folding>
-            <element signature="e#0#63#0" expanded="true" />
+            <element signature="e#0#42#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MyFirstApp2/src/interfaces/pic.ts">
+    <entry file="file://$PROJECT_DIR$/MyFirstApp2/src/pages/profile/profile.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        <state relative-caret-position="255">
+          <caret line="15" selection-start-line="15" selection-end-line="26" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyFirstApp2/src/pipes/userimage/userimage.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyFirstApp2/src/pipes/thumbnail/thumbnail.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="18" column="3" selection-start-line="16" selection-start-column="2" selection-end-line="18" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#52#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -672,27 +638,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MyFirstApp2/src/pages/profile/profile.html">
+    <entry file="file://$PROJECT_DIR$/MyFirstApp2/src/interfaces/pic.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="25" column="46" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
+        <state relative-caret-position="289">
+          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MyFirstApp2/src/pages/login-register/login-register.ts">
+    <entry file="file://$PROJECT_DIR$/MyFirstApp2/src/providers/media/media.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="38" column="71" selection-start-line="38" selection-start-column="71" selection-end-line="38" selection-end-column="71" />
+        <state relative-caret-position="204">
+          <caret line="14" column="37" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="37" />
           <folding>
-            <element signature="e#0#42#0" expanded="true" />
+            <element signature="e#0#63#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyFirstApp2/src/pages/menu/menu.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MyFirstApp2/src/pages/profile/profile.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
-          <caret line="38" column="22" lean-forward="true" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
+          <caret line="41" column="4" lean-forward="true" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="4" />
           <folding>
             <element signature="e#0#42#0" expanded="true" />
           </folding>
