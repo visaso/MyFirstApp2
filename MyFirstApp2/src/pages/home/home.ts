@@ -4,6 +4,7 @@ import { Pic } from '../../interfaces/pic';
 import { HttpClient } from '@angular/common/http';
 import { MediaProvider } from '../../providers/media/media';
 import { Observable } from "rxjs";
+import { UploadPage } from "../upload/upload";
 
 @Component({
   selector: 'page-home',
@@ -15,7 +16,7 @@ export class HomePage {
   constructor(public navCtrl: NavController, private http: HttpClient, private mediaProvider: MediaProvider) {
   }
 
-  ionViewDidLoad() {
+  ionViewWillEnter() {
     this.getAllFiles();
     console.log('Getting imgs');
     /*
@@ -35,6 +36,10 @@ export class HomePage {
           this.mediaProvider.loggedIn = false;
         });
     }
+  }
+
+  goToUpload() {
+    this.navCtrl.push(UploadPage).catch();
   }
 
   getAllFiles() {

@@ -36,3 +36,9 @@ export interface CheckUsername {
   username: string;
   available: boolean;
 }
+
+export interface MediaFile {
+  title: string;
+  description: string;
+  file: File;
+}

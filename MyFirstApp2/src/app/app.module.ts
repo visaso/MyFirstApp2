@@ -14,6 +14,7 @@ import { ProfilePage } from '../pages/profile/profile';
 import { ThumbnailPipe } from '../pipes/thumbnail/thumbnail';
 import { UserimagePipe } from "../pipes/userimage/userimage";
 import { FormsModule } from "@angular/forms";
+import { UploadPage } from "../pages/upload/upload";
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { FormsModule } from "@angular/forms";
     LoginRegisterPage,
     ProfilePage,
     ThumbnailPipe,
-    UserimagePipe
+    UserimagePipe,
+    UploadPage
   ],
   imports: [
     BrowserModule,
@@ -37,7 +39,8 @@ import { FormsModule } from "@angular/forms";
     HomePage,
     MenuPage,
     LoginRegisterPage,
-    ProfilePage
+    ProfilePage,
+    UploadPage
   ],
   providers: [
     StatusBar,

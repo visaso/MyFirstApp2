@@ -1,6 +1,6 @@
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { CheckUsername, LoginResponse, Pic, User } from '../../interfaces/pic';
+import { CheckUsername, LoginResponse, MediaFile, Pic, User } from '../../interfaces/pic';
 
 /*
   Generated class for the MediaProvider provider.
@@ -38,6 +38,16 @@ export class MediaProvider {
       // body: [user.username]
     }; // add headers
     return this.http.post<LoginResponse>(this.mediaPath + '/login', user, httpOptions);
+  }
+
+  upload(user: FormData) {
+    const httpOptions = {
+      headers: new HttpHeaders({
+        'x-access-token': localStorage.getItem('token')
+      })
+      // body: [user.username]
+    }; // add headers
+    return this.http.post<LoginResponse>(this.mediaPath + '/media', user, httpOptions);
   }
 
   getUserInfo() {
