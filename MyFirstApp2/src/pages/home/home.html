@@ -17,7 +17,7 @@
       </ion-thumbnail>
       <h2>{{ item.title }}</h2>
       <p>{{ item.time_added | date: ('dd.MM.yyyy') }}</p>
-      <p>{{ item.description }}</p>
+      <p>{{ item.description.split(':FILTERS')[0] }}</p>
       <button ion-button clear item-end>View</button>
     </ion-item>
   </ion-list>

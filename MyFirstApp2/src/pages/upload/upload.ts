@@ -23,9 +23,9 @@ export class UploadPage {
   description: string;
   filters = {
     'brightness': 100,
-    'contrast': 100,
-    'sepia': 0,
     'saturation': 100,
+    'sepia': 0,
+    'contrast': 100,
   };
 
   constructor(public navCtrl: NavController, public navParams: NavParams, public media: MediaProvider,
@@ -65,7 +65,7 @@ export class UploadPage {
     const filters = '<filters>filtersAsText</filters>';
     const fd = new FormData();
     fd.append('title', this.title);
-    fd.append('description', this.description);
+    fd.append('description', this.description + ':FILTERS:' + JSON.stringify(this.filters));
     fd.append('file', this.file);
     this.media.upload(fd).subscribe(res => {
       console.log(res);
