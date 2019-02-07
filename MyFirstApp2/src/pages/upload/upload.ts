@@ -117,5 +117,11 @@ export class UploadPage {
   clear() {
     this.previewSrc = '';
     this.isImage = false;
+    this.filters = {
+      'brightness': 100,
+      'saturation': 100,
+      'sepia': 0,
+      'contrast': 100,
+    };
   }
 }
