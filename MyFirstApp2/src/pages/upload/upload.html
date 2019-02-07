@@ -15,51 +15,48 @@
 
 <ion-content padding>
 
-  <form (ngSubmit)="upload()">
+  <form (ngSubmit)="upload()" #uploadForm="ngForm">
     <ion-item>
-      <ion-label>Todo</ion-label>
-      <ion-input type="text" [(ngModel)]="title" name="title"></ion-input>
+      <ion-label>Title</ion-label>
+      <ion-input type="text" [(ngModel)]="title" name="title" minlength="3" required></ion-input>
     </ion-item>
     <ion-item>
       <ion-label>Description</ion-label>
-      <ion-textarea [(ngModel)]="description" name="description"></ion-textarea>
+      <ion-textarea [(ngModel)]="description" name="description" minlength="2"></ion-textarea>
     </ion-item>
-    <ion-item>
-      <ion-label>File</ion-label>
-      <ion-input type="file" (change)="handleChange($event)"></ion-input>
+    <button ion-button type="button" (click)="chooseFile()" required>Blob-a-file</button>
+    <ion-card>
+      <img #preview [src]="previewSrc" [ngStyle]="filterImage()">
+    </ion-card>
+    <ion-item *ngIf="isImage">
+      <ion-item>
+        <ion-range min="0" max="200" name="brightness" [(ngModel)]="filters.brightness">
+          <ion-icon range-left small name="sunny"></ion-icon>
+          <ion-icon range-right name="sunny"></ion-icon>
+        </ion-range>
+      </ion-item>
+      <ion-item>
+        <ion-range min="0" max="200" name="saturation" [(ngModel)]="filters.saturation">
+          <ion-icon range-left small name="thermometer"></ion-icon>
+          <ion-icon range-right name="thermometer"></ion-icon>
+        </ion-range>
+      </ion-item>
+      <ion-item>
+        <ion-range min="0" max="100" name="sepia" [(ngModel)]="filters.sepia">
+          <ion-icon range-left small name="leaf"></ion-icon>
+          <ion-icon range-right name="leaf"></ion-icon>
+        </ion-range>
+      </ion-item>
+      <ion-item>
+        <ion-range min="0" max="200" name="contrast" [(ngModel)]="filters.contrast">
+          <ion-icon range-left small name="contrast"></ion-icon>
+          <ion-icon range-right name="contrast"></ion-icon>
+        </ion-range>
+      </ion-item>
     </ion-item>
-    <button ion-button type="submit" block>Add Todo</button>
+    <button ion-button type="submit" block [disabled]="!uploadForm.valid || !imageUploaded">Upload</button>
+    <button ion-button type="reset" (click)="clear()" block>Clear</button>
   </form>
-
-  <ion-card>
-    <img #preview [src]="filedata" [ngStyle]="filterImage()">
-  </ion-card>
-
-  <ion-item>
-    <ion-range min="0" max="200" [(ngModel)]="filters.brightness">
-      <ion-icon range-left small name="sunny"></ion-icon>
-      <ion-icon range-right name="sunny"></ion-icon>
-    </ion-range>
-  </ion-item>
-  <ion-item>
-    <ion-range min="0" max="200" [(ngModel)]="filters.saturation">
-      <ion-icon range-left small name="thermometer"></ion-icon>
-      <ion-icon range-right name="thermometer"></ion-icon>
-    </ion-range>
-  </ion-item>
-  <ion-item>
-    <ion-range min="0" max="100" [(ngModel)]="filters.sepia">
-      <ion-icon range-left small name="leaf"></ion-icon>
-      <ion-icon range-right name="leaf"></ion-icon>
-    </ion-range>
-  </ion-item>
-  <ion-item>
-    <ion-range min="0" max="200" [(ngModel)]="filters.contrast">
-      <ion-icon range-left small name="contrast"></ion-icon>
-      <ion-icon range-right name="contrast"></ion-icon>
-    </ion-range>
-  </ion-item>
-
 
 
 </ion-content>

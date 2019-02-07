@@ -15,6 +15,8 @@ import { ThumbnailPipe } from '../pipes/thumbnail/thumbnail';
 import { UserimagePipe } from "../pipes/userimage/userimage";
 import { FormsModule } from "@angular/forms";
 import { UploadPage } from "../pages/upload/upload";
+import { Chooser } from "@ionic-native/chooser";
+import { Camera } from "@ionic-native/camera";
 
 @NgModule({
   declarations: [
@@ -47,7 +49,9 @@ import { UploadPage } from "../pages/upload/upload";
     SplashScreen,
 
     { provide: ErrorHandler, useClass: IonicErrorHandler },
-    MediaProvider
+    MediaProvider,
+    Chooser,
+    Camera
   ]
 })
 export class AppModule {
