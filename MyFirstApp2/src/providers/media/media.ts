@@ -12,6 +12,7 @@ import { CheckUsername, LoginResponse, MediaFile, Pic, User } from '../../interf
 export class MediaProvider {
   mediaPath = 'http://media.mw.metropolia.fi/wbma';
   loggedIn = false;
+
   constructor(public http: HttpClient) {
     console.log('Hello MediaProvider Provider');
   }
@@ -19,9 +20,20 @@ export class MediaProvider {
   getAllMedia() {
     return this.http.get<Pic[]>(this.mediaPath + '/media');
   }
+
   getSingleMedia(id: any) {
-   return this.http.get<Pic>(this.mediaPath + '/media/' + id);
+    return this.http.get<Pic>(this.mediaPath + '/media/' + id);
   }
+
+  getUserFiles() {
+    const httpOptions = {
+      headers: new HttpHeaders({
+        'x-access-token': localStorage.getItem('token')
+      }),
+    };
+    return this.http.get<Pic[]>(this.mediaPath + '/media/user', httpOptions);
+  }
+
   register(user: User) {
     const registerInfo = {
       headers: new HttpHeaders({
@@ -30,6 +42,7 @@ export class MediaProvider {
     };
     return this.http.post<LoginResponse>(this.mediaPath + '/users/', user, registerInfo);
   }
+
   login(user: User) {
     const httpOptions = {
       headers: new HttpHeaders({
@@ -50,6 +63,25 @@ export class MediaProvider {
     return this.http.post<LoginResponse>(this.mediaPath + '/media', user, httpOptions);
   }
 
+  modifyImage(modify, id) {
+    const httpOptions = {
+      headers: new HttpHeaders({
+        'x-access-token': localStorage.getItem('token'),
+        'Content-type': 'application/json'
+      }),
+    };
+    return this.http.put<any>(this.mediaPath + '/media' + id, modify, httpOptions);
+  }
+
+  deleteImage(id: string) {
+    const httpOptions = {
+      headers: new HttpHeaders({
+        'x-access-token': localStorage.getItem('token')
+      })
+    };
+    return this.http.delete<any>(this.mediaPath + '/media/' + id, httpOptions);
+  }
+
   getUserInfo() {
     const httpOptions = {
       headers: new HttpHeaders({
@@ -57,6 +89,15 @@ export class MediaProvider {
       })
     };
     return this.http.get<User>(this.mediaPath + '/users/user/', httpOptions);
+  }
+
+  getUsername(userID: string) {
+    const httpOptions = {
+      headers: new HttpHeaders({
+        'x-access-token': localStorage.getItem('token')
+      })
+    };
+    return this.http.get<User>(this.mediaPath + '/users/' + userID, httpOptions);
   }
 
   getFilesByTag() {

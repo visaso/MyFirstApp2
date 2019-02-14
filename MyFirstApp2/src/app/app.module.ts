@@ -17,6 +17,9 @@ import { FormsModule } from "@angular/forms";
 import { UploadPage } from "../pages/upload/upload";
 import { Chooser } from "@ionic-native/chooser";
 import { Camera } from "@ionic-native/camera";
+import { PlayerPage } from "../pages/player/player";
+import { MyFilesPage } from "../pages/my-files/my-files";
+import { ModifyPage } from "../pages/modify/modify";
 
 @NgModule({
   declarations: [
@@ -27,7 +30,10 @@ import { Camera } from "@ionic-native/camera";
     ProfilePage,
     ThumbnailPipe,
     UserimagePipe,
-    UploadPage
+    UploadPage,
+    PlayerPage,
+    MyFilesPage,
+    ModifyPage
   ],
   imports: [
     BrowserModule,
@@ -42,7 +48,10 @@ import { Camera } from "@ionic-native/camera";
     MenuPage,
     LoginRegisterPage,
     ProfilePage,
-    UploadPage
+    UploadPage,
+    PlayerPage,
+    MyFilesPage,
+    ModifyPage
   ],
   providers: [
     StatusBar,

@@ -42,3 +42,8 @@ export interface MediaFile {
   description: string;
   file: File;
 }
+
+export interface Modify {
+  title?: string;
+  description?: string;
+}

@@ -5,6 +5,7 @@ import { HomePage } from '../home/home';
 import { Pic, User } from "../../interfaces/pic";
 import { Observable } from "rxjs";
 import { HttpClient } from "@angular/common/http";
+import { MyFilesPage } from "../my-files/my-files";
 
 /**
  * Generated class for the ProfilePage page.
@@ -53,6 +54,10 @@ export class ProfilePage {
     this.mediaProvider.loggedIn = false;
     this.avatarUrl = '';
     this.navCtrl.push(HomePage);
+  }
+
+  goToMyFiles() {
+    this.navCtrl.push(MyFilesPage).catch();
   }
 
 }

@@ -5,6 +5,7 @@ import { HttpClient } from '@angular/common/http';
 import { MediaProvider } from '../../providers/media/media';
 import { Observable } from "rxjs";
 import { UploadPage } from "../upload/upload";
+import { PlayerPage } from "../player/player";
 
 @Component({
   selector: 'page-home',
@@ -36,6 +37,11 @@ export class HomePage {
           this.mediaProvider.loggedIn = false;
         });
     }
+
+    const pattern = '\\[d\\](.*)\\[\\/d\\]';
+    const re = new RegExp(pattern);
+    console.log(re);
+    console.log(re.exec('[d]Nice dog[/d]'));
   }
 
   goToUpload() {
@@ -44,6 +50,13 @@ export class HomePage {
 
   getAllFiles() {
     this.picArray = this.mediaProvider.getAllMedia();
+  }
+
+  viewImage(param1, param2) {
+    this.navCtrl.push(PlayerPage, {
+      property1: param1,
+      property2: param2
+    });
   }
 }
 

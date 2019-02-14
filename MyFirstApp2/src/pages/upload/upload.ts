@@ -77,7 +77,7 @@ export class UploadPage {
     const filters = '<filters>filtersAsText</filters>';
     const fd = new FormData();
     fd.append('title', this.title);
-    fd.append('description', this.description + ':FILTERS:' + JSON.stringify(this.filters));
+    fd.append('description', '[d]' + this.description + '[/d][f]' + JSON.stringify(this.filters) + '[/f]');
     // fd.append('file', this.file);
     fd.append('file', this.myBlob);
     this.media.upload(fd).subscribe(res => {

@@ -17,8 +17,8 @@
       </ion-thumbnail>
       <h2>{{ item.title }}</h2>
       <p>{{ item.time_added | date: ('dd.MM.yyyy') }}</p>
-      <p>{{ item.description.split(':FILTERS')[0] }}</p>
-      <button ion-button clear item-end>View</button>
+      <p>{{ item.description.slice(3).split('[/d]')[0] }}</p>
+      <button ion-button clear (click)="viewImage(item, item.user_id)" item-end>View</button>
     </ion-item>
   </ion-list>
 </ion-content>

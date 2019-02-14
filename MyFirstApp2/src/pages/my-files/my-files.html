@@ -1,0 +1,27 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Profile
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <ion-item ion-item *ngFor="let item of picArray | async">
+      <ion-thumbnail item-start>
+        <img src='http://media.mw.metropolia.fi/wbma/uploads/{{ item.file_id  | thumbnail | async }}' item-start=""
+             width="60" height="60">
+      </ion-thumbnail>
+      <h2>{{ item.title }}</h2>
+      <p>{{ item.time_added | date: ('dd.MM.yyyy') }}</p>
+      <p>{{ item.description.slice(3).split('[/d]')[0] }}</p>
+      <ion-buttons>
+        <button ion-button clear (click)="viewImage(item, item.user_id)" item-end>View</button>
+        <button ion-button clear (click)="modifyImage(item, item.user_id)" item-end>Modify</button>
+        <button ion-button clear (click)="deleteImage(item.file_id)" item-end>Delete</button>
+      </ion-buttons>
+    </ion-item>
+  </ion-list>
+</ion-content>
+
